@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Aventura</title>
+</head>
+<body>
+    <h1>Escolha Sua Aventura</h1>
+    <p>Você está diante de uma série de decisões importantes. O que você fará?</p>
+    <button onclick="choose('Lutar')">Lutar contra o vilão</button>
+    <button onclick="choose('Fugir')">Fugir</button>
+    <button onclick="choose('Negociar')">Negociar com o vilão</button>
+    <button onclick="choose('Alianca')">Formar uma aliança</button>
+    <button onclick="choose('Explorar')">Explorar a caverna</button>
+    <button onclick="choose('Investigar')">Investigar o barulho</button>
+    <button onclick="choose('Ajuda')">Ajudar um personagem</button>
+    <button onclick="choose('Descansar')">Descansar</button>
+    <p id="result"></p>
+
+    <script>
+        function choose(choice) {
+            fetch(`/story/${choice}`)
+                .then(response => response.text())
+                .then(result => {
+                    document.getElementById('result').innerText = result;
+                });
+        }
+    </script>
+</body>
+</html>
