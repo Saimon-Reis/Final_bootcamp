@@ -23,15 +23,16 @@ Na interface do jogo, você verá várias opções de escolha. Clique nos botõe
 como elas influenciam o desenrolar da história. As escolhas disponíveis são:
 </p>Contem apenas uma resposta ainda, sera atualizado em breve</p>
 
-Lutar contra o vilão
-Fugir
-Negociar com o vilão
-Formar uma aliança
-Explorar a caverna
-Investigar o barulho
-Ajudar um personagem
-Descansar
-Cada escolha leva a um resultado diferente, criando uma experiência interativa e variada.
+Lutar contra o vilão<br>
+Fugir<br>
+Negociar com o vilão<br>
+Formar uma aliança<br>
+Explorar a caverna<br>
+Investigar o barulho<br>
+Ajudar um personagem<br>
+Descansar<br>
+Cada escolha leva a um resultado diferente, criando uma experiência interativa e variada.<br>
+//super ganbiara
 
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
