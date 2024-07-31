@@ -32,7 +32,7 @@ Investigar o barulho<br>
 Ajudar um personagem<br>
 Descansar<br>
 Cada escolha leva a um resultado diferente, criando uma experiência interativa e variada.<br>
-/*super ganbiara*/
+<!--ganbiara no <br>-->
 
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
